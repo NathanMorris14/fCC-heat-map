@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#canvas {
+    background-color: white;
+    top: -95px;
+}
+
+#legend {
+    background-color: rgb(234, 234, 234);
+    padding: 15px;
+}
+
+#tooltip {
+    position: relative;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px black;
+    z-index: 3;
+    font-size: 2em;
+}
+
+.cell:hover {
+    fill: black
+}
+
+footer {
+    padding: 25px;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
